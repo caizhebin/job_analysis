@@ -3,7 +3,7 @@
 03_导入MySQL.py —— 把清洗后的 CSV 导入 MySQL（你电脑上已装好 MySQL Server 8.0 且在运行）
 
 运行前唯一要做的事：把下面 MYSQL_PASSWORD 改成你的 root 密码
-（就是当初装 MySQL 时设置的那个；忘了的话告诉我，带你走重置流程）
+（就是当初安装 MySQL 时设置的那个）
 
 运行：py 03_导入MySQL.py
 产出：MySQL 里的 jobs 库、job_postings 表（之后用 Workbench 跑 04_分析.sql）
